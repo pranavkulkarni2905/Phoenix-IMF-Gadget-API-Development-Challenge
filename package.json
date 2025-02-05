@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node src/app.js",
-  "dev": "nodemon src/app.js"
+    "prestart": "npm install -g nodemon",
+    "start": "node src/app.js",
+    "dev": "node src/app.js"
   },
   "keywords": [],
   "author": "",
